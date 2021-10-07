@@ -1,0 +1,150 @@
+:root{
+    --dark-red: #8c2327;
+    --light-grey: #878686;
+    --medium-grey: #404040;
+}
+
+.banner{
+    background-color: var(--light-grey);
+    height: 2,5em;
+    font-size: 6vw;
+    font-family: 'Rajdhani';
+    font-stretch:wider;
+    border-style: solid;
+    border-width:thin;
+    border-color:black;
+}
+
+.banner-middle{
+    margin: auto;
+    text-align: center;
+    color: var(--dark-red);
+    padding-left:20%;
+}
+
+.back-to-home{
+    outline-width: 10px;
+    outline-color: black;
+    color: #8bcc8f;
+}
+
+.my-navbar{
+    background-color: var(--dark-red); 
+    font-family: 'Rajdhani';
+    font-size: 3vh;
+    min-height:7vh;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.navbar-toggler{
+    height: 100%;
+}
+  
+.default-text-box{
+    background-color: var(--light-grey);
+    color: var(--medium-grey);
+    font-family: Rajdhani;
+    font-size: 6vw;
+    padding-left: 20%;
+    border-style:solid;
+    border-width:thin;
+    border-color: black;
+}
+
+.homepage-image-box{
+    background-color: var(--dark-red);
+}
+
+.explore-button{
+    background-color: var(--dark-red);
+    color: var(--light-grey);
+    font-weight: bold;
+}
+
+.text-row{
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: var(--dark-red);
+}
+
+.homepage-image{
+    border-style:solid;
+    border-width:thin;
+    border-color: black;
+}
+
+.banner-bottom{
+    background-color: var(--light-grey);
+    height: 10vh;
+    border-style: solid;
+    border-width:thin;
+    border-color:black;
+}
+
+.symbol{
+    font-size:6vh;
+    margin-top: 2vh;
+    color: var(--medium-grey);
+}
+
+.contact-button{
+    min-height: 90%;
+    border-style: solid;
+    border-color: var(--medium-grey);
+    border-width:medium;
+    color: var(--medium-grey);
+    margin-top:1vh;
+    margin-bottom:1vh;
+}
+
+.video{
+    background-color: var(--light-grey);
+}
+
+.yarnbox{
+    background-image: url("yarn.jpg");
+    color: var(--medium-grey);
+    font-family: Rajdhani;
+    font-size: 6vw;
+    padding-left: 20%;
+    border-style:solid;
+    border-width:thin;
+    border-color: black;
+
+}
+
+.text-box-2{
+    height:inherit;
+    font-family: Rajdhani;
+    font-size: 3vw;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    background-color: var(--light-grey);
+    color: var(--medium-grey);
+    text-align: center;
+}
+
+.carousel-control-prev{
+    margin-bottom: 0px;
+    align-self: flex-start;
+}
+
+.carousel-control-next{
+    margin-bottom: 0px;
+    align-self: flex-end;
+}
+
+.carousel-indicators{
+    position:static;
+}
+
+.subhead{
+    text-align:center;
+    font-size: 3vw;
+}
+
+.ytvid{
+    align-content: center;
+}
